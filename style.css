@@ -1,0 +1,46 @@
+/* Style for the page body */
+body {
+    background-color: #000; /* Shiny black background color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the bulb image */
+#bulbImage {
+    width: 80%; /* Adjust the image width as needed */
+    max-width: 600px; /* Maximum image width */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    filter: brightness(70%); /* Shiny black background effect */
+}
+
+/* Style for the heading */
+h1 {
+    color: #fff; /* White text color for the heading */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 20px;
+}
+
+/* Style for the toggle button */
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Style for the button when hovered */
+#toggleButton:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Style for the button when clicked */
+#toggleButton:active {
+    background-color: #0042a0; /* Button background color when clicked */
+}
